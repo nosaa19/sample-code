@@ -7,3 +7,7 @@ func ReverseString(input string) string {
 	}
 	return string(runes)
 }
+
+func IsPalindrome(text01, text02 string) bool {
+	return ReverseString(text01) == text02
+}
